@@ -1,0 +1,19 @@
+interface:
+  display_name: "Geo ML Research"
+  short_description: "岩土ML科研、图表写作、引用与投稿预检"
+  default_prompt: "Use $geo-ml-research to route my geotechnical machine-learning research task and produce the next concrete artifact."
+multi_agent:
+  default_mode: "read-only unless explicitly approved"
+  roles:
+    - name: "search-agent"
+      output: "query ledger, candidate ledger, source coverage, failed sources"
+    - name: "fulltext-agent"
+      output: "attempts.jsonl-style status, evidence level, source-map readiness"
+    - name: "reader-agent"
+      output: "paper reading anchors, can_support, cannot_support, gaps"
+    - name: "method-reviewer"
+      output: "split, baseline, HPO, metric, reproducibility risks"
+    - name: "geo-reviewer"
+      output: "engineering object, boundary, tolerance, application risks"
+    - name: "citation-reviewer"
+      output: "metadata verification, duplicate groups, citation readiness"

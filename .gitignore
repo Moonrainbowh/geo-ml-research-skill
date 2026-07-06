@@ -1,0 +1,38 @@
+.DS_Store
+Thumbs.db
+
+# Local editor and agent state
+.vscode/
+.idea/
+.codex/
+.agents/
+
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+
+# Archives and generated packages
+*.zip
+*.tar.gz
+dist/
+
+# Research artifacts that should not be committed by accident
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+*.pdf
+*.docx
+*.pptx
+
