@@ -100,9 +100,3 @@ Some module names and ideas also reflect commonly used research-agent patterns s
 ## License
 
 This repository is released under the MIT License. See [`LICENSE`](LICENSE).
-
-## AI assistance
-
-This skill and its release materials were developed with assistance from OpenAI Codex. Codex helped audit related research-skill designs, restructure the workflow, draft reusable skill references, prepare the public repository, and create the release package.
-
-The repository maintainer reviewed and directed the work, selected the final scope, and is responsible for the published content. Codex is acknowledged as an AI development assistant, not as a copyright holder or legal entity.
